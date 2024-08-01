@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +22,6 @@ html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
-
 
 body {
     background: var(--bg-color);
@@ -48,6 +46,10 @@ section {
     z-index: 100;
 }
 
+.header.sticky {
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
 .logo {
     font-size: 2.5rem;
     color: var(--text-color);
@@ -61,6 +63,7 @@ section {
     margin-left: 4rem;
     font-weight: 700;
 }
+
 .navbar a:hover,
 .navbar a.active {
     color: var(--text-color);
@@ -78,7 +81,7 @@ section {
     align-items: center;
 }
 
-.home-content{
+.home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
 }
@@ -409,6 +412,12 @@ span{
 
     .navbar.active {
         display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
     }
 
     .home {
