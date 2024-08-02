@@ -190,6 +190,9 @@ span{
 
 .about-img img {
     width: 25vw;
+    animation: floatImage 4s ease-in-out infinite;
+    box-shadow: 0 0 2rem rgba(255, 105, 180, 0);
+    border-radius: 50% 30%;
 }
 
 
@@ -204,7 +207,7 @@ span{
 }
 
 .about-content p {
-    font-size:  1.6rem;
+    font-size:  1.8rem;
     margin: 2rem 0 3rem;
 }
 
