@@ -2,149 +2,213 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name = "viewpoint" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Busisiwe Matsoele's portfolio showcasing web development, AI, and app development skills.">
+    <meta name="keywords" content="Busisiwe Matsoele, Web Development, AI, App Development, Portfolio">
+    <title>My Profile</title>
+    
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!--Main CSS-->
-
     <link rel="stylesheet" href="style.css">
-    <title>My Profile</title>
 </head>
-<body> 
+<body>
     <!--Header Design-->
     <header class="header">
         <a href="#" class="logo">Portfolio.</a>
-
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
-
+        <i class="fa-solid fa-bars" id="menu-icon" aria-label="Menu Icon"></i>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#services">Skills</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
-
         </nav>
     </header>
 
     <!--Home Section Design-->
     <section class="home" id="home">
         <div class="home-content">
-            <h3>Hi, It's me .</h3>
+            <h3>Hi, It's me.</h3>
             <h1>Busisiwe Matsoele</h1>
-            <h3>I am a <span class="multiple-text" ></span></h3>
+            <h3>I am a <span class="multiple-text"></span></h3>
             <p>I am a web developer with a passion for learning and growing in the fields of AI, web development, and app development.</p>
-            <p> My goal is to become the best in my field and I am dedicated to constantly improving my skills.</p>
+            <p> My goal is to become the best in my field, and I am dedicated to constantly improving my skills.</p>
             <p>I love what I do and look forward to every opportunity to expand my knowledge and expertise.</p>
             <div class="social-media">
-                <a href="https://www.facebook.com/BusisiweBlessing" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/be.blessing" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/busisiwe-matsoele-14a69531a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/Busi-Blessing" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/BusisiweBlessing" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/be.blessing" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/busisiwe-matsoele-14a69531a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Busi-Blessing" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
             </div>
-            <a href="BUSISIWE MATSOELE_ CV (1).pdf" class="btn" target="_blank">Download CV </a>
+            <a href="BUSISIWE MATSOELE_ CV (1).pdf" class="btn" target="_blank">Download CV</a>
         </div>
-
         <div class="home-img">
-            <img src="Images/pink.jpeg" alt="">
+            <img src="Images/pink.jpeg" alt="Busisiwe Matsoele">
         </div>
     </section>
 
     <!--About Section Design-->
     <section class="about" id="about">
-        <div class="about-img">
-            <!--img src="Images/red.jpeg" alt=""-->
-        </div>
-
         <div class="about-content">
             <h2 class="heading">About <span>ME</span></h2>
             <h3>Aspiring Full Stack Developer</h3>
-            <p>I’m a 21-year-old IT development student working towards my degree. My passion lies in discovering new programming languages and, most importantly, creating apps and websites. Although I haven't gained extensive experience yet, I enjoy coding and always look forward to starting new projects. Each project helps me develop my skills and improve my abilities. I’m excited about learning more and building my skills in technology as I prepare to enter the professional world. While I can be a bit pessimistic at times, my enthusiasm for technology and travel keeps me motivated. I hope to one day work abroad, gaining experience and making a difference in the tech field. I’m dedicated to growing my knowledge and making the most of every opportunity. </p>
-            
-
+            <p>I’m a 21-year-old IT development student working towards my degree. My passion lies in discovering new programming languages and, most importantly, creating apps and websites. Although I haven't gained extensive experience yet, I enjoy coding and always look forward to starting new projects. Each project helps me develop my skills and improve my abilities. I’m excited about learning more and building my skills in technology as I prepare to enter the professional world. While I can be a bit pessimistic at times, my enthusiasm for technology and travel keeps me motivated. I hope to one day work abroad, gaining experience and making a difference in the tech field. I’m dedicated to growing my knowledge and making the most of every opportunity.</p>
             <h2 class="heading"> My <span>Education</span><i class="fa-solid fa-building-columns"></i></h2>
             <h3>Bachelor of Information Technology</h3> 
             <h3>2022-2024</h3>
-            <p>Still studing at North West Univertisy</p>
-
+            <p>Still studying at North West University</p>
         </div>
     </section>
 
     <!--Services Section Design-->
-    <section class = "services" id="services">
+    <section class="services" id="services">
         <h2 class="heading"> My <span>Services</span></h2>
-
         <div class="services-container">
             <div class="services-box">
                 <i class="fa-solid fa-code"></i>
                 <h3>Web Development</h3>
-                <p>I am a very good developer </p>
-                <a href="#" class="btn">Read More</a>
+                <p>I create dynamic, user-friendly websites with HTML, CSS, and JavaScript, focusing on responsive design and enhancing user experiences.</p>
+                
             </div>
-
             <div class="services-box">
-                <i class="fa-solid fa-code"></i>
-                <h3>Animations</h3>
-                <p>I am a very good developer </p>
-                <a href="#" class="btn">Read More</a>
+                <i class="fa-solid fa-database"></i>
+                <h3>Data Analysis</h3>
+                <p>I specialize in data analysis, using tools like Python and SQL to turn complex data into actionable insights and drive strategic decisions.</p>
+                
             </div>
-
             <div class="services-box">
-                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-palette"></i>
                 <h3>App Development</h3>
-                <p>I am a very good developer </p>
-                <a href="#" class="btn">Read More</a>
+                <p>I develop intuitive apps using React Native and Flutter, creating seamless experiences across platforms.</p>
+                
             </div>
         </div>
     </section>
 
-     <!--Services Section Design-->
-     <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Projects</span></h2>
-
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="Images/IMG_7020.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p> The following is the project i once did </p>
-                    <i class="fa-solid fa-up-right-from-square"></i>
+    <!--Skills Section Design-->
+    <section class="skills" id="skills">
+        <h2 class="heading"> My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="technical-skills">
+                <h3>Technical Skills</h3>
+                <div class="Technical-bars">
+                    <div class="bar">
+                        <i class="fa-brands fa-html5"></i>
+                        <div class="info">
+                            <span>HTML</span>
+                        </div>
+                        <div class="progress-line html">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i style="color: aqua;" class="fa-brands fa-css3-alt"></i>
+                        <div class="info">
+                            <span>CSS</span>
+                        </div>
+                        <div class="progress-line css">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i style="color: #b0bc1e;" class="fa-brands fa-js"></i>
+                        <div class="info">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="progress-line javascript">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i style="color: #c32;" class="fa-brands fa-python"></i>
+                        <div class="info">
+                            <span>Python</span>
+                        </div>
+                        <div class="progress-line python">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i style="color: #c32ec9;" class="fa-brands fa-react"></i>
+                        <div class="info">
+                            <span>React</span>
+                        </div>
+                        <div class="progress-line react">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="professional-skills">
+                <h3>Professional Skills</h3>
+                <div class="radial-bars">
+                    <div class="radial-bar">
+                        <svg viewBox="0 0 200 200" aria-label="Creativity Progress Bar">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">90%</div>
+                        <div class="text">Creativity</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg viewBox="0 0 200 200" aria-label="Problem Solving Progress Bar">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">60%</div>
+                        <div class="text">Problem Solving</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg viewBox="0 0 200 200" aria-label="Teamwork Progress Bar">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">70%</div>
+                        <div class="text">Teamwork</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg viewBox="0 0 200 200" aria-label="Leadership Progress Bar">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">85%</div>
+                        <div class="text">Leadership</div>
+                    </div>
                 </div>
             </div>
         </div>
-     </section>
+    </section>
 
     <!--Contact Me Section Design-->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>ME</span></h2>
-
         <div class="contact-info">
             <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+2767987323">+27 67 98 7323</a></p>
             <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:busisiwematsoele7@gmail.com">busisiwematsoele7@gmail.com</a></p>
-            <p><i class="fa-solid fa-location-dot"></i> Address: <a href="address:nwu">NWU</a></p>
+            <p><i class="fa-solid fa-location-dot"></i> Address: NWU</p>
         </div>
     </section>
 
     <!--Footer Design-->
     <footer class="footer">
         <div class="footer-text">
-        <p>Copyright &copy; 2024 by NWU | All right Reserved.</p>
+            <p>Copyright &copy; 2024 by NWU | All rights reserved.</p>
         </div>
-
         <div class="footer-iconTop">
-            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            <a href="#home" aria-label="Back to Top"><i class="fa-solid fa-angle-up"></i></a>
         </div>
     </footer>
 
-    <!--Scrolll-->
+    <!--Scroll Reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!--TYPED JS-->
-
+    <!--Typed JS-->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
+    <!--Main JS-->
     <script src="main.js"></script>
 </body>
 </html>
+
