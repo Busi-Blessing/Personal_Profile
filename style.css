@@ -13,7 +13,7 @@
 
 :root {
     --bg-color: black;
-    --snd-bg-color: pink;
+    --snd-bg-color: rgba(255, 192, 203, 0.834);
     --text-color: #fff;
     --main-color: #f459d8;
 }
