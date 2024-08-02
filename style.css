@@ -90,6 +90,14 @@ section {
     margin-bottom: 2rem; 
 }
 
+.home-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 2000px;
+    margin: 0;
+    flex: 1;
+}
+
 span{
     color: var(--main-color);
 }
